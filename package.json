@@ -1,0 +1,19 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ajax",
+    "cross-domain",
+    "event"
+  ],
+  "author": "leotw",
+  "license": "MIT",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
+}

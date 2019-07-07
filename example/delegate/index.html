@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>delegate</title>
+</head>
+<body>
+  <div id="container">
+      <div class="parent">Parent</div>
+      <div class="parent">Parent</div>
+      <div class="parent">Parent</div>
+      <div class="parent">
+          <div class="child">Child</div>
+          <div class="child">Child</div>
+          <div class="child">
+              <div class="grandson">Grandson</div>
+              <div class="grandson">Grandson</div>
+          </div>
+      </div>
+  </div>
+<script src="../../libs/delegate.js"></script>
+<script>
+  const ele = document.getElementById('container');
+  delegate(ele, 'click', function(event) {
+    console.log(event.target);
+  }, '.child .grandson .parent');
+</script>
+</body>
+</html>
