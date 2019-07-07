@@ -1,15 +1,13 @@
 {
   "name": "basic",
   "version": "1.0.0",
-  "description": "basic",
+  "description": "EF performance explore",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "ajax",
     "cross-domain",
-    "event"
+    "event",
+    "delegate"
   ],
   "author": "leotw",
   "license": "MIT",
